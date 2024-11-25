@@ -25,3 +25,23 @@ JavaScript uses a mechanism called the event loop to manage asynchronous operati
 1. Callbacks: A function passed as an argument to another function to be executed when the asynchronous operation is complete.
 2. Promises: A more structured way to handle asynchronous operations, representing the eventual completion (or failure) of an asynchronous operation and its resulting value.
 3. Async/Await: A syntax that makes asynchronous code look more synchronous, making it easier to read and write.
+
+# What is Synchronous javaScript?
+
+Imagine you're waiting in line at a single-teller bank. Each customer has to wait for the teller to finish their transaction before they can be served. This is similar to how synchronous JavaScript works.
+
+In synchronous JavaScript, tasks are executed one after the other, in a sequential manner. If one task takes a long time, the next task has to wait until the first one is finished. This can lead to performance issues, especially when dealing with time-consuming operations like network requests or file I/O.
+
+**Why Avoid Synchronous JavaScript in Certain Scenarios?**
+
+1. Blocking operations: Long-running tasks can block the main thread, making your application unresponsive.
+2. Inefficient resource utilization: The JavaScript engine can't handle other tasks while one task is in progress.
+3. Poor user experience: Users may experience delays and slow performance.
+
+**When to Use Synchronous JavaScript:**
+
+While asynchronous JavaScript is generally preferred, there are situations where synchronous code can be more appropriate:
+
+- Simple, short-lived tasks: For tasks that don't involve significant delays or external operations, synchronous code can be simpler to write and understand.
+- Specific use cases: Certain libraries or frameworks may require synchronous code for specific functionalities.
+  In conclusion, while synchronous JavaScript is straightforward, it's important to be mindful of its limitations and choose the right approach for your specific use case. In most modern web development scenarios, asynchronous JavaScript is the preferred method for building responsive and efficient applications.
