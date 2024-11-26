@@ -45,3 +45,22 @@ While asynchronous JavaScript is generally preferred, there are situations where
 - Simple, short-lived tasks: For tasks that don't involve significant delays or external operations, synchronous code can be simpler to write and understand.
 - Specific use cases: Certain libraries or frameworks may require synchronous code for specific functionalities.
   In conclusion, while synchronous JavaScript is straightforward, it's important to be mindful of its limitations and choose the right approach for your specific use case. In most modern web development scenarios, asynchronous JavaScript is the preferred method for building responsive and efficient applications.
+
+# AJAX Calls :
+
+AJAX calls are the most important use case of asynchronous javaScript and so let's see what AJAX is all about
+
+AJAX stands for Asynchronous JavaScript And XML: Allows us to communicate with remote web services in an asynchronous way.
+with AJAX calls, we can request dada from web services dynamically
+
+**How AJAX works?**
+
+Let's consider our application is running in the browser or client and we want the application to get some data
+from a web server.
+
+so with AJAX we can do an HTTP request to the server which has this data and the server will set back a response containing that data that we requested
+and this back and forth between Client and server all happens asynchronously in the background, and there can even be different types of requests
+like get requests to receive data or post requests to send data to a server and more types of requests that we will cover them all.
+Now when wre're asking a server to send us some data this server usually contains a web API and this API is the one that has the data
+that we're asking for.
+So an API is something pretty important and so let's see what an API and web APIs actually are.
