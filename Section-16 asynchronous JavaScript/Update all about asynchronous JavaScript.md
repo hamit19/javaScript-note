@@ -65,7 +65,7 @@ Now when wre're asking a server to send us some data this server usually contain
 that we're asking for.
 So an API is something pretty important and so let's see what an API and web APIs actually are.
 
-**What is API?**
+# What is API?
 
 API stands for Application Programming Interface: In general terms and on the very high level of obstruction API is  
 a piece of software that can be used by another piece of software, in order ot allow applications to talk to each other
@@ -78,7 +78,8 @@ But now let's talk bout the important type of API that we are actually intereste
 and that are APIs that I like to call Online APIs.
 So an online API is essentially an application running on a web server which receives requests for data then retrieves this data from some database and then sends it back to the client
 
-**API data formats**
+# API data formats:
+
 AJAX stands for Asynchronous JavaScript And XML,
 so the **X** there stands for **XML** and XML is a data format which used to be widely used to transmit data on the web.
 However these days basically no API uses XML data anymore, the term AJAX is just an old name that got very popular back in the day and so it's still used today,
