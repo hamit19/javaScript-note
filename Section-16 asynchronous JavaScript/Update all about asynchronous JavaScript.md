@@ -77,3 +77,11 @@ objects made from a class can be seen as self-contained encapsulated pieces of s
 But now let's talk bout the important type of API that we are actually interested in when we use AJAX,
 and that are APIs that I like to call Online APIs.
 So an online API is essentially an application running on a web server which receives requests for data then retrieves this data from some database and then sends it back to the client
+
+**API data formats**
+AJAX stands for Asynchronous JavaScript And XML,
+so the **X** there stands for **XML** and XML is a data format which used to be widely used to transmit data on the web.
+However these days basically no API uses XML data anymore, the term AJAX is just an old name that got very popular back in the day and so it's still used today,
+even though we don't use XML anymore,
+So instead most APIs these days use the **JSON** data format, so **JSON** is the most popular data format today because it's just JavaScript object but converted to a string
+and therefore it's very easy to send across the web and also to use in JavaScript once the data arrives
