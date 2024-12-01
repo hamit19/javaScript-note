@@ -64,3 +64,16 @@ like get requests to receive data or post requests to send data to a server and 
 Now when wre're asking a server to send us some data this server usually contains a web API and this API is the one that has the data
 that we're asking for.
 So an API is something pretty important and so let's see what an API and web APIs actually are.
+
+**What is API?**
+
+API stands for Application Programming Interface: In general terms and on the very high level of obstruction API is  
+a piece of software that can be used by another piece of software, in order ot allow applications to talk to each other
+and that's true not only for web development and JavaScript, but for programming in general.
+
+In JavaScript and web development there are countless types of APIs like DOM API or Geolocation API, so these are called APIs because they are a self-contained piece of software
+that allow other pieces of software to interact with them, Also we can always implement a small and simple API in a class where we make some methods available as a public interface.
+objects made from a class can be seen as self-contained encapsulated pieces of software that other pieces of software can interact with and so that fits the definition of API.
+But now let's talk bout the important type of API that we are actually interested in when we use AJAX,
+and that are APIs that I like to call Online APIs.
+So an online API is essentially an application running on a web server which receives requests for data then retrieves this data from some database and then sends it back to the client
